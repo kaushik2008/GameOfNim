@@ -26,4 +26,8 @@ public class NimAI {
         }
         return power / 2 - 1;
     }
+
+    public static void setMaxRemove(int newHeapSize) {
+        int maxRemove = newHeapSize;
+    }
 }
